@@ -92,10 +92,12 @@ export default function About() {
                   create things that can be usefull to others. and always take
                   into consideration the functionality of products I build
                   <br /> <br />
-                  I started coding since I was in high school. Coding is also an
-                  art for me. I love it and now I have the opportunity to design
-                  along with the coding. I find it really interesting and I
-                  enjoyed the process a lot.
+                  I've been immersed in coding since my high school days, and for me, 
+                  it's more than just lines of code—it's an art form. 
+                  I'm deeply passionate about it, and now, as a machine learning engineer, 
+                  I'm thrilled to merge my coding expertise with design. 
+                  This combination adds an intriguing dimension to my work, and
+                  I find the process immensely rewarding.
                   <br />
                   <br />
                   My vision is to make the world a better place. I love
@@ -131,20 +133,20 @@ export default function About() {
               <h1 className="about__info__heading">My Skills</h1>
 
               <AboutInfoItem
-                title="FrontEnd"
-                items={['HTML', 'CSS', 'JavaScript', 'REACT']}
+                title="Machine Learning"
+                items={['CNN', 'regressions', 'Opencv']}
               />
               <AboutInfoItem
-                title="BackEnd"
-                items={['Node', 'Express', 'PHP']}
+                title="Data Analyst"
+                items={['Python', 'Pandas', 'spark', 'numpy']}
               />
-              <AboutInfoItem title="Design" items={['Figma']} />
+              <AboutInfoItem title="Competitive coding" items={['Java/CPP']} />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
 
-              <AboutInfoItem title="worked on" items={['web-development']} />
-              <AboutInfoItem title="working on" items={['smart contracts']} />
+              <AboutInfoItem title="worked on" items={['ML and Deep Learning projects']} />
+              <AboutInfoItem title="working on" items={['EDA and automation']} />
             </div>
           </div>
         </div>
