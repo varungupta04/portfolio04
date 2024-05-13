@@ -8,21 +8,21 @@ import CavinImg from '../images/cavinimg.jpg';
 const projects = [
   {
     id: uuidv4(),
-    name: 'Habit Tracker',
-    desc: 'https://github.com/varungupta04/doc-proj',
+    name: 'Brain Tumour',
+    desc: 'Using different metrics for brain tumour detection',
     img: UTrackerImg,
   },
   {
     id: uuidv4(),
-    name: 'edu4u',
-    desc: 'https://github.com/varungupta04/backend-edu4u',
+    name: 'Can Counter',
+    desc: 'Utilising this we can keep a track of the inventory using just camera',
     img: GreenCtgImg,
   },
   {
     id: uuidv4(),
-    name: 'landing page',
+    name: 'Automation using python ',
     desc:
-      'https://github.com/varungupta04/Gifting_solution   https://github.com/varungupta04/3d-wesite',
+      'Tech should be used for automating things in ones life so automating life with thechnology',
     img: CoinTrackerImg,
   },
   {
@@ -36,6 +36,12 @@ const projects = [
     id: uuidv4(),
     name: 'arcade games',
     desc: 'https://github.com/csivitu/ArcadeGames',
+    img: ProjectImg,
+  },
+  {
+    id: uuidv4(),
+    name: 'Neurel Networks',
+    desc: 'Creating a neural network from scratch',
     img: ProjectImg,
   },
 ];
